@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#722f37" rx="76.8"/>
+  
+  <!-- Wine Glass -->
+  <g transform="translate(256, 256)">
+    <!-- Bowl of glass -->
+    <path d="
+      M -128 -128
+      C -128 -76.8, -76.8 25.6, 0 25.6
+      C 76.8 25.6, 128 -76.8, 128 -128
+      L -128 -128
+      Z
+    " fill="#ffffff" stroke="#ffffff" stroke-width="10.24"/>
+    
+    <!-- Wine in glass -->
+    <path d="
+      M -102.4 -76.8
+      C -102.4 -25.6, -51.2 10.24, 0 10.24
+      C 51.2 10.24, 102.4 -25.6, 102.4 -76.8
+      L -102.4 -76.8
+      Z
+    " fill="#8b0000" opacity="0.8"/>
+    
+    <!-- Stem -->
+    <line x1="0" y1="25.6" x2="0" y2="128" 
+          stroke="#ffffff" stroke-width="15.36"/>
+    
+    <!-- Base -->
+    <ellipse cx="0" cy="128" rx="76.8" ry="15.36" 
+             fill="#ffffff"/>
+  </g>
+  
+  <!-- WSET Text -->
+  <text x="256" y="435.2" 
+        font-family="Arial, sans-serif" 
+        font-size="61.44" 
+        font-weight="bold" 
+        text-anchor="middle" 
+        fill="#ffffff">WSET</text>
+</svg>
